@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Threads CORS Fix",
-  "version": "1.0.0",
-  "description": "Modify CORP header resources for Threads",
+  "name": "__MSG_appName__",
+  "version": "1.0.1",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
   "permissions": [
     "declarativeNetRequest"
   ],
