@@ -1,0 +1,23 @@
+{
+  "name": "threads-cors-fix",
+  "version": "1.0.0",
+  "description": "Modify CORP header resources for Threads - Multi-browser extension",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:chrome": "node scripts/build.js chrome",
+    "build:firefox": "node scripts/build.js firefox",
+    "clean": "node scripts/build.js clean",
+    "zip": "node scripts/build.js zip",
+    "package": "npm run build && npm run zip"
+  },
+  "keywords": [
+    "browser-extension",
+    "chrome",
+    "firefox",
+    "cors",
+    "threads"
+  ],
+  "author": "",
+  "license": "MIT"
+}

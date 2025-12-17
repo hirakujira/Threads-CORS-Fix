@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Threads CORS Fix",
+  "version": "1.0.0",
+  "description": "Modify CORP header resources for Threads",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "threads-cors-fix@example.com",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://*.fbcdn.net/*",
+    "https://*.cdninstagram.com/*",
+    "https://*.threads.net/*",
+    "https://*.threads.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
