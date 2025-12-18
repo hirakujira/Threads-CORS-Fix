@@ -37,9 +37,12 @@ The `declarativeNetRequest` API in Safari has some bugs that prevent it from wor
 2. Open Safari → Settings → Extensions → Enable Userscripts
 3. Click the Userscripts icon in Safari toolbar, then click the "folder" button in the top left corner. Finder will automatically open a folder
 
-![Step](Userscript/userscript-usage.jpg)
+![Step 1](Userscript/userscript-usage.jpg)
 
 4. Download [`threads-image-fix.user.js`](Userscript/threads-image-fix.user.js) and save it to that folder
+
+![Step 2](Userscript/userscript-download.jpg)
+
 5. Visit Threads, then click the Userscripts icon again. You should see the script listed (you must visit Threads first, otherwise it won't show up)
 6. Refresh the page and images will be fixed
 
