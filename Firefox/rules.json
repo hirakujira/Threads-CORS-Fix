@@ -13,7 +13,8 @@
       ]
     },
     "condition": {
-      "requestDomains": ["fbcdn.net", "cdninstagram.com"]
+      "requestDomains": ["fbcdn.net", "cdninstagram.com"],
+      "initiatorDomains": ["threads.com"]
     }
   }
 ]
